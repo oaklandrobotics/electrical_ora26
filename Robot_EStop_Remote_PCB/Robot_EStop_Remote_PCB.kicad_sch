@@ -1598,6 +1598,359 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(no_connect
 		(at 149.86 77.47)
@@ -1797,7 +2150,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 88.9) (xy 99.06 88.9)
+			(xy 96.52 87.63) (xy 102.87 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1817,16 +2170,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 53.34) (xy 85.09 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34a8dc74-a0ec-4fff-bfa4-a69eb8803eb4")
-	)
-	(wire
-		(pts
 			(xy 134.62 110.49) (xy 135.89 110.49)
 		)
 		(stroke
@@ -1834,26 +2177,6 @@
 			(type default)
 		)
 		(uuid "3891f599-22d1-4477-ac0b-372ae780f240")
-	)
-	(wire
-		(pts
-			(xy 82.55 55.88) (xy 85.09 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40aa8566-6b3c-449b-bb19-d755548ea8ff")
-	)
-	(wire
-		(pts
-			(xy 99.06 87.63) (xy 102.87 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40dc1a14-85a9-43dd-b69e-24590a7e1dbe")
 	)
 	(wire
 		(pts
@@ -1927,16 +2250,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 88.9) (xy 99.06 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cab360c3-bb3c-4d87-85cd-cf6786f0542a")
-	)
-	(wire
-		(pts
 			(xy 138.43 121.92) (xy 138.43 118.11)
 		)
 		(stroke
@@ -1954,16 +2267,6 @@
 			(type default)
 		)
 		(uuid "f60248d9-f63f-4bbd-8241-087afcdd3c90")
-	)
-	(wire
-		(pts
-			(xy 91.44 113.03) (xy 102.87 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb24bee2-d7b7-4779-9398-ce1f5bd5df12")
 	)
 	(wire
 		(pts
@@ -1999,7 +2302,7 @@
 			)
 		)
 	)
-	(global_label "P16"
+	(global_label "TX"
 		(shape input)
 		(at 96.52 85.09 180)
 		(fields_autoplaced yes)
@@ -2011,7 +2314,7 @@
 		)
 		(uuid "3b519614-d1ca-4608-86a7-cbea961ddeac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.8458 85.09 0)
+			(at 91.3577 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2023,57 +2326,9 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "RX"
 		(shape input)
-		(at 156.21 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "494271b6-b3d7-4cdd-a913-cfbcd65ea5ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.7028 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GND_ESP"
-		(shape input)
-		(at 114.3 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "53f36bd8-93b3-46d8-8457-6ee793074888")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.8482 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "P17"
-		(shape input)
-		(at 93.98 88.9 180)
+		(at 96.52 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2083,7 +2338,7 @@
 		)
 		(uuid "65cf0e7b-dc21-477a-b8fa-a911e97222ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.3058 88.9 0)
+			(at 91.0553 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2095,31 +2350,7 @@
 			)
 		)
 	)
-	(global_label "GND_ESP"
-		(shape input)
-		(at 91.44 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9620e0b5-d232-4c02-93c9-b8554bdf507c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.9882 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "P17"
+	(global_label "RX"
 		(shape input)
 		(at 134.62 110.49 180)
 		(fields_autoplaced yes)
@@ -2131,7 +2362,7 @@
 		)
 		(uuid "c9bfd721-aaea-44fe-aac6-deacd6d27df9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.9458 110.49 0)
+			(at 129.1553 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2143,55 +2374,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
-		(shape input)
-		(at 142.24 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cdcc4b3c-557c-48ae-b7e5-1b256c1523ff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.7328 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "3V3IN"
-		(shape input)
-		(at 200.66 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ce7fff8a-7c3b-409e-a3ae-dc850b7bc5f3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.0881 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "P16"
+	(global_label "TX"
 		(shape input)
 		(at 133.35 114.3 180)
 		(fields_autoplaced yes)
@@ -2203,7 +2386,7 @@
 		)
 		(uuid "d20c7d43-7dae-4953-a4b1-cba1a84d37a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.6758 114.3 0)
+			(at 128.1877 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2212,160 +2395,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "3V3IN"
-		(shape input)
-		(at 85.09 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f4afbddf-5eca-4634-a619-248fea623597")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.5181 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 85.09 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fa24ec5f-e91f-41d5-ac61-6f5143ccffde")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.5828 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 200.66 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fe32305b-b0a1-4936-b38b-2b234186388b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.5157 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 77.47 53.34 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2cfca9a1-5126-46c3-b9de-0c0b10d9abc8")
-		(property "Reference" "J1"
-			(at 74.93 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 74.93 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-			(at 77.47 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 77.47 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "32d7f51e-939f-414b-b024-b19c77dacab6")
-		)
-		(pin "1"
-			(uuid "1b4d4b31-8157-405f-adb1-c58194530358")
-		)
-		(instances
-			(project "Robot_EStop_Remote_PCB"
-				(path "/7fd7d5df-e6f7-419c-80a8-25c384325b97"
-					(reference "J1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2446,6 +2475,85 @@
 			(project "Robot_EStop_Remote_PCB"
 				(path "/7fd7d5df-e6f7-419c-80a8-25c384325b97"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 156.21 113.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c7a1f0d-ef8a-4bfe-8039-4abc46049c02")
+		(property "Reference" "#PWR05"
+			(at 152.4 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 160.02 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 156.21 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5900eecd-3858-423c-b0f7-f85a6f5ec76f")
+		)
+		(instances
+			(project "Robot_EStop_Remote_PCB"
+				(path "/7fd7d5df-e6f7-419c-80a8-25c384325b97"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2577,6 +2685,82 @@
 			(project "Robot_EStop_Remote_PCB"
 				(path "/7fd7d5df-e6f7-419c-80a8-25c384325b97"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 119.38 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6196e2d4-bb8c-4dbc-b9ad-fb19c575c380")
+		(property "Reference" "H1"
+			(at 121.92 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 121.92 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 119.38 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 119.38 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Robot_EStop_Remote_PCB"
+				(path "/7fd7d5df-e6f7-419c-80a8-25c384325b97"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -2715,6 +2899,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 102.87 113.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f40ddc3-9d88-43b7-ae2c-a80291d89687")
+		(property "Reference" "#PWR02"
+			(at 96.52 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "922bc15b-87a7-4d78-bdbf-606eeca4934c")
+		)
+		(instances
+			(project "Robot_EStop_Remote_PCB"
+				(path "/7fd7d5df-e6f7-419c-80a8-25c384325b97"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x10_Pin")
 		(at 128.27 137.16 270)
 		(unit 1)
@@ -2746,7 +3009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x10_P2.00mm_Vertical"
 			(at 128.27 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -2819,6 +3082,395 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 142.24 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4b1ffab-8d75-4941-8657-b22990352e1c")
+		(property "Reference" "H2"
+			(at 144.78 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 144.78 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 142.24 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 142.24 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Robot_EStop_Remote_PCB"
+				(path "/7fd7d5df-e6f7-419c-80a8-25c384325b97"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 142.24 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db429b6f-58a7-46dd-87f2-e6baaf73e0c4")
+		(property "Reference" "#PWR06"
+			(at 138.43 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 146.05 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 142.24 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a1bc124-d829-40fe-8589-d9d45ad7da9f")
+		)
+		(instances
+			(project "Robot_EStop_Remote_PCB"
+				(path "/7fd7d5df-e6f7-419c-80a8-25c384325b97"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 200.66 59.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df934cea-8518-4a98-83f9-814e34a357a2")
+		(property "Reference" "#PWR07"
+			(at 196.85 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 204.47 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 200.66 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "800866af-32d6-4c5a-9556-45e6cb3c8826")
+		)
+		(instances
+			(project "Robot_EStop_Remote_PCB"
+				(path "/7fd7d5df-e6f7-419c-80a8-25c384325b97"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 135.89 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8421dba-53c7-4aee-886c-5f59a37f7b32")
+		(property "Reference" "H3"
+			(at 138.43 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 138.43 50.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 135.89 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 135.89 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Robot_EStop_Remote_PCB"
+				(path "/7fd7d5df-e6f7-419c-80a8-25c384325b97"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea238081-4770-4ae0-b50f-860ad07b4607")
+		(property "Reference" "#PWR01"
+			(at 207.01 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c40b2ac5-8dc4-4fe8-85eb-aeb912caaaf7")
+		)
+		(instances
+			(project "Robot_EStop_Remote_PCB"
+				(path "/7fd7d5df-e6f7-419c-80a8-25c384325b97"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x10_Pin")
 		(at 125.73 127 90)
 		(unit 1)
@@ -2849,7 +3501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x10_P2.00mm_Vertical"
 			(at 125.73 127 0)
 			(hide yes)
 			(show_name no)
@@ -2916,6 +3568,161 @@
 			(project "Robot_EStop_Remote_PCB"
 				(path "/7fd7d5df-e6f7-419c-80a8-25c384325b97"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 154.94 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f489dd48-ad05-45f4-b3ff-9ac5f1ca4cb8")
+		(property "Reference" "H4"
+			(at 157.48 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 157.48 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 154.94 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 154.94 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Robot_EStop_Remote_PCB"
+				(path "/7fd7d5df-e6f7-419c-80a8-25c384325b97"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 116.84 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbf6baab-ec1e-4d1c-8f5e-2e29e9e5630c")
+		(property "Reference" "#PWR03"
+			(at 107.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 116.8399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a25b9a42-3c4b-48c9-a025-74cc72257035")
+		)
+		(instances
+			(project "Robot_EStop_Remote_PCB"
+				(path "/7fd7d5df-e6f7-419c-80a8-25c384325b97"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
